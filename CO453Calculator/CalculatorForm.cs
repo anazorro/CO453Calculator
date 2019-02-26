@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace CO453Calculator
 {
-    public partial class Form1 : Form
+    public partial class CalculatorForm : Form
     {
-        public Form1()
+        public CalculatorForm()
         {
             InitializeComponent();
         }
