@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace CO453Calculator
+namespace CO453Forms
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace CO453Calculator
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new CalculatorForm());
+            Application.Run(new DataEntryForm());
         }
     }
 }
