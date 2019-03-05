@@ -16,7 +16,7 @@ namespace CO453Forms
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new DataEntryForm());
+            Application.Run(new CalcForm());
         }
     }
 }
