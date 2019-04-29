@@ -110,7 +110,7 @@
             this.resultLabel.Size = new System.Drawing.Size(62, 24);
             this.resultLabel.TabIndex = 5;
             this.resultLabel.Text = "Result";
-            this.resultLabel.Click += new System.EventHandler(this.label1_Click);
+      
             // 
             // panel1
             // 

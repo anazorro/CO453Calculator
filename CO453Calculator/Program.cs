@@ -10,6 +10,7 @@ namespace CO453Forms
     {
         /// <summary>
         /// The main entry point for the application.
+        /// All tasks complete.
         /// </summary>
         [STAThread]
         static void Main()

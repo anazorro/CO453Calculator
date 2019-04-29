@@ -14,11 +14,6 @@ namespace CO453Forms
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void AddNumbers(object sender, EventArgs e)
         {
             GetNumbers();
@@ -26,7 +21,6 @@ namespace CO453Forms
             result = number1 + number2;
             ShowResult();
         }
-            
 
         private void GetNumbers()
         {

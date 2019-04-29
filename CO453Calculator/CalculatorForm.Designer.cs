@@ -10,7 +10,8 @@
         /// <summary>
         /// Clean up any resources being used.
         /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        /// <param name="disposing">true if managed resources should 
+        /// be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -29,9 +30,9 @@
         private void InitializeComponent()
         {
             this.QuitButton = new System.Windows.Forms.Button();
+            this.computerButton = new System.Windows.Forms.Button();
             this.greetingLabel = new System.Windows.Forms.Label();
             this.pricesLabel = new System.Windows.Forms.Label();
-            this.computerButton = new System.Windows.Forms.Button();
             this.softwareButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -45,6 +46,17 @@
             this.QuitButton.Text = "Quit";
             this.QuitButton.UseVisualStyleBackColor = true;
             this.QuitButton.Click += new System.EventHandler(this.QuitButton_Click);
+            // 
+            // computerButton
+            // 
+            this.computerButton.ForeColor = System.Drawing.Color.Black;
+            this.computerButton.Location = new System.Drawing.Point(243, 289);
+            this.computerButton.Name = "computerButton";
+            this.computerButton.Size = new System.Drawing.Size(137, 39);
+            this.computerButton.TabIndex = 3;
+            this.computerButton.Text = "Best Computer";
+            this.computerButton.UseVisualStyleBackColor = true;
+            this.computerButton.Click += new System.EventHandler(this.showButton_Click);
             // 
             // greetingLabel
             // 
@@ -71,17 +83,6 @@
             this.pricesLabel.TabIndex = 2;
             this.pricesLabel.Text = "The BEST Prices!!!";
             this.pricesLabel.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // computerButton
-            // 
-            this.computerButton.ForeColor = System.Drawing.Color.Black;
-            this.computerButton.Location = new System.Drawing.Point(243, 289);
-            this.computerButton.Name = "computerButton";
-            this.computerButton.Size = new System.Drawing.Size(137, 39);
-            this.computerButton.TabIndex = 3;
-            this.computerButton.Text = "Best Computer";
-            this.computerButton.UseVisualStyleBackColor = true;
-            this.computerButton.Click += new System.EventHandler(this.showButton_Click);
             // 
             // softwareButton
             // 
@@ -120,10 +121,9 @@
         #endregion
 
         private System.Windows.Forms.Button QuitButton;
+        private System.Windows.Forms.Button computerButton;
         private System.Windows.Forms.Label greetingLabel;
         private System.Windows.Forms.Label pricesLabel;
-        private System.Windows.Forms.Button computerButton;
         private System.Windows.Forms.Button softwareButton;
     }
 }
-

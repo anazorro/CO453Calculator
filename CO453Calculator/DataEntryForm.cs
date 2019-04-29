@@ -24,7 +24,8 @@ namespace CO453Forms
 
         private void ShowMessage(object sender, EventArgs e)
         {
-            messageLabel.Text = "Hi " + firstNameTextBox.Text + " " + surnameTextBox.Text + " \nHappy Programming!!!";
+            messageLabel.Text = "Hi " + firstNameTextBox.Text + " " + 
+                surnameTextBox.Text + " \nHappy Programming!!!";
         }
 
         private void ClearMessage(object sender, EventArgs e)
